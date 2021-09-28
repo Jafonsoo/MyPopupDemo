@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MyPopupDemo"
+             xmlns:ff="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             x:Class="MyPopupDemo.MainPage">
+    <StackLayout>
+        <Label Text="Pop Up Demo" Font="Bold,24"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        <Button VerticalOptions="StartAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                    Text="Popup"
+                    Font="Bold,20"
+                    Clicked="Button_Clicked"
+                    BackgroundColor="Aqua"/>
+        <Button Text="Loader" BackgroundColor="Gray" Clicked="Loader1_Clicked"/>
+        <Button Text="Custom Loader" BackgroundColor="DarkMagenta" Clicked="Loader2_Clicked"/>
+        <Button Text="Random Color Loader" BackgroundColor="Chocolate" Clicked="Loader3_Clicked"/>
+        <Button Text="GIF Loader" BackgroundColor="DarkCyan" Clicked="GIF_Clicked"/>
+
+
+    </StackLayout>
+</ContentPage>
